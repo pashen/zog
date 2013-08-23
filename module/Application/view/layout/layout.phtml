@@ -46,7 +46,8 @@
                 </div><!--/.nav-collapse -->
             </div>
         </nav>
-        <div class="container"><?php echo $this->navigation('navigation')->menu()->setUlClass('nav'); ?>
+        <div class="container"><?php 
+		echo $this->navigation('navigation')->menu()->setUlClass('nav'); ?>
             <?php echo $this->content; ?>
             <hr>
             <footer>
